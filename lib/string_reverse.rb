@@ -1,10 +1,10 @@
 # A method to reverse a string in place.
 # Let n be the length of the input string (my_string)
 # Time complexity:
-#   There are 3 edge case operations. There are 3 operations prior to the loop.
+#   There are 3 edge case operations. There are 7 operations prior to the loop.
 #   The loop runs n / 2 times.
-#   Each iteration, the loop does 3 operations.
-#   The total time complexity is thus 6 + 3(n/2) = O(n)
+#   Each iteration, the loop does 6 operations.
+#   The total time complexity is thus 7 + 6(n/2) = O(n)
 # Space complexity:
 #   The input string is length n. We additionally allocate space for 3 integers.
 #   All changes to the string are done in place, requiring no additional space.
